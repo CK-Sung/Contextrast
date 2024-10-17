@@ -145,6 +145,21 @@
 </section>
 <!-- End paper abstract -->
 
+<style>
+  .item {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center the text */
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  .responsive-image {
+    max-width: 100%; /* Ensure image is responsive and does not overflow */
+    height: auto; /* Maintain aspect ratio */
+  }
+</style>
+
 
 <!-- Image carousel -->
 <section class="hero is-small">
@@ -153,35 +168,35 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/Contextrast_framework.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/figure2.png" alt="MY ALT TEXT" width="500" height="500"/>
         <h2 class="subtitle has-text-centered">
           Overall Contextrast Framework
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/figure1.png" alt="MY ALT TEXT"/>
+        <img src="static/images/figure1.png" alt="MY ALT TEXT" width="200" height="200"/>
         <h2 class="subtitle has-text-centered">
           Overview
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/figure3.png" alt="MY ALT TEXT"/>
+        <img src="static/images/figure3.png" alt="MY ALT TEXT" width="500" height="500"/>
         <h2 class="subtitle has-text-centered">
          Boundary-aware sampling
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/figure4.png" alt="MY ALT TEXT"/>
+      <img src="static/images/figure4.png" alt="MY ALT TEXT" width="700" height="700"/>
       <h2 class="subtitle has-text-centered">
         Qualitative results
       </h2>
     </div>
     <div class="item">
       <!-- Your image here -->
-      <img src="static/images/table2.png" alt="MY ALT TEXT"/>
+      <img src="static/images/table2.png" alt="MY ALT TEXT" width="700" height="700"/>
       <h2 class="subtitle has-text-centered">
         Quantitative results
       </h2>
@@ -196,7 +211,14 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@misc{sung2024contextrast,
+      title={Contextrast: Contextual Contrastive Learning for Semantic Segmentation}, 
+      author={Changki Sung and Wanhee Kim and Jungho An and Wooju Lee and Hyungtae Lim and Hyun Myung},
+      year={2024},
+      eprint={2404.10633},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
